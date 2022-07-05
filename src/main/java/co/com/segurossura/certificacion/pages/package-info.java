@@ -1,8 +1,8 @@
 /**
- * Este paquete contiene la estructura del arqueotipo de
- * desarrollo de pruebas POM
+ * Este paquete contiene las paginas y sus funcionalidades bajo
+ * el patron POM
  *
  * @author Diego Pinzon
  * @version 1.0
  */
-package co.com.segurossura.certificacion.models;
+package co.com.segurossura.certificacion.pages;

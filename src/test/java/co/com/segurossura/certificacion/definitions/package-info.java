@@ -1,8 +1,8 @@
 /**
- * Este paquete contiene la estructura del arqueotipo de
- * desarrollo de pruebas POM
+ * Este paquete contiene los pasos de cada ejecucion siguiendo
+ * el comportamiento gherkin de cada feature
  *
  * @author Diego Pinzon
  * @version 1.0
  */
-package co.com.segurossura.certificacion.pages;
+package co.com.segurossura.certificacion.definitions;

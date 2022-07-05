@@ -5,4 +5,4 @@
  * @author Diego Pinzon
  * @version 1.0
  */
-package co.com.segurossura.certificacion.definitions;
+package co.com.segurossura.certificacion.runners;

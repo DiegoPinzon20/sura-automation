@@ -1,8 +1,8 @@
 /**
- * Este paquete contiene la estructura del arqueotipo de
- * desarrollo de pruebas POM
+ * Este paquete contiene los modelos necesarios para
+ * el desarrollo de la automatizacion
  *
  * @author Diego Pinzon
  * @version 1.0
  */
-package co.com.segurossura.certificacion;
+package co.com.segurossura.certificacion.models;
