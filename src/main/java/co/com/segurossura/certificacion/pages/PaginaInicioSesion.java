@@ -1,5 +1,6 @@
 package co.com.segurossura.certificacion.pages;
 
+import co.com.segurossura.certificacion.models.CredencialesModelo;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.Step;
@@ -27,10 +28,17 @@ public class PaginaInicioSesion extends PageObject {
         element(campoDeUsuario).waitUntilVisible();
     }
 
-    @Step("User logs in by entering username and password")
+    @Step("El usuario inicia sesión ingresando nombre de usuario y contraseña")
     public void iniciarSesion(String username, String password){
         ingresarUsuario(username);
         ingresarClave(password);
+        ingresarAlSistema();
+    }
+
+    @Step("El usuario inicia sesión ingresando nombre de usuario y contraseña")
+    public void iniciarSesion(CredencialesModelo credencialesModelo){
+        ingresarUsuario(credencialesModelo.getUsuario());
+        ingresarClave(credencialesModelo.getClaveDeAcceso());
         ingresarAlSistema();
     }
     private void ingresarUsuario(String usuario){
