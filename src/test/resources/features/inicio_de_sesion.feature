@@ -2,35 +2,35 @@
 # creado por DiegoPinzon el 05/07/2022
 # autor: diego.pizon@sofka.com.co
 
-Característica: Inicio de Sesión en SauceDemo Labs
+Característica: Inicio de Sesion en SauceDemo Labs
 
-  Regla: Un usuario registrado puede iniciar sesión
-  Como usuario, necesito iniciar sesión en Sauce Demo Web con mis credenciales
+  Regla: Un usuario registrado puede iniciar sesion
+  Como usuario, necesito iniciar sesion en Sauce Demo Web con mis credenciales
 
-    Antecedentes: El usuario está ubicado en la página de inicio de sesión
-      Dado que el usuario navega a la página de inicio de sesión
+    Antecedentes: El usuario esta ubicado en la pagina de inicio de sesion
+      Dado que el usuario navega a la pagina de inicio de sesion
 
     @InicioDeSesionExitoso
-    Escenario: Inicio de sesión exitoso
-      Cuando el usuario inicia sesión con credenciales válidas
-      Entonces debería ver la página del catálogo de productos
+    Escenario: Inicio de sesion exitoso
+      Cuando el usuario inicia sesion con credenciales validas
+      Entonces deberia ver la pagina del catalogo de productos
 
     @InicioDeSesionFallido_CredencialesInvalidas
-    Escenario: Inicio de sesión fallido
-      Cuando el usuario inicia sesión con credenciales no válidas
-      Entonces debería ver el mensaje de credenciales no válidas
+    Escenario: Inicio de sesion fallido
+      Cuando el usuario inicia sesion con credenciales no validas
+      Entonces deberia ver el mensaje de credenciales no validas
 
     @InicioDeSesionFallido_UsuarioBloqueado
-    Escenario: Iniciar sesión con usuario bloqueado
-      Cuando el usuario inicia sesión con credenciales bloqueadas
-      Entonces debería ver el mensaje de usuario bloqueado
+    Escenario: Iniciar sesion con usuario bloqueado
+      Cuando el usuario inicia sesion con credenciales bloqueadas
+      Entonces deberia ver el mensaje de usuario bloqueado
 
     @InicioDeSesionFallido_CampoDeClaveVacio
-    Escenario: Iniciar sesión con contraseña vacía
-      Cuando el usuario inicia sesión con contraseña vacía
-      Entonces debería ver el mensaje de contraseña requerida
+    Escenario: Iniciar sesion con clave de acceso vacia
+      Cuando el usuario inicia sesion con clave de acceso vacia
+      Entonces deberia ver el mensaje de clave de acceso requerida
 
     @InicioDeSesionFallido_CampoDeUsuarioVacio
-    Escenario: Iniciar sesión con usuario vacío
-      Cuando el usuario inicia sesión con usuario vacío
-      Entonces debería ver el mensaje de nombre de usuario requerido
+    Escenario: Iniciar sesion con usuario vacio
+      Cuando el usuario inicia sesion con usuario vacio
+      Entonces deberia ver el mensaje de nombre de usuario requerido
