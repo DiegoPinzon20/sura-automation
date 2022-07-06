@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class InformacionDelUsuarioModelo {
-    private final String firstName;
-    private final String lastName;
-    private final String postalCode;
+    private final String nombre;
+    private final String apellido;
+    private final String codigoPostal;
 }

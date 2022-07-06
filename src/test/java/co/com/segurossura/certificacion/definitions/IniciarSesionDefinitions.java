@@ -4,6 +4,7 @@ import co.com.segurossura.certificacion.pages.PaginaInicioSesion;
 import co.com.segurossura.certificacion.pages.PaginaPrincipalDeProductos;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
+import io.cucumber.java.es.E;
 import io.cucumber.java.es.Entonces;
 
 import static org.hamcrest.MatcherAssert.assertThat;
