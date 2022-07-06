@@ -4,7 +4,7 @@
 
 Característica: Realizar una compra
 
-  Rule: Un usuario puede finalizar el proceso de compra
+  Regla: Un usuario puede finalizar el proceso de compra
   Como usuario quiero finalizar la compra de los productos añadidos al carrito.
 
     Antecedentes: Iniciar sesion y agregar productos al carrito

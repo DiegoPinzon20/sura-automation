@@ -37,12 +37,14 @@ ejecutar las pruebas use el siguiente comando en la raíz del proyecto.
 
 Si desea ejecutar algún Runner especifico puede usar el siguiente comando, por ejemplo para el Login.
 
-    gradle clean test --tests "LoginRunner"
+    gradle clean test --tests "IniciarSesionRunner"
 
 ## Navegador Web 🌐
 
-Actualmente la automatización ejecuta por defecto con Chrome, si desea ampliar sus pruebas en diferentes navegadores
+Actualmente la automatización se ejecuta por defecto con Chrome, si desea ampliar sus pruebas en diferentes navegadores
 puede realizar esta configuración en el archivo **serenity.conf**
+
+Es importante tener en cuenta que el archivo binario (driver) para que selenium interactue con el navegador es administrado completamente por el core de Serenity BDD, es por ello que no se encontrará con este archivo en la ruta **src/test/resources/drivers/*.exe**.
 
 ## Obtener el código
 
