@@ -4,17 +4,17 @@
 
 Característica: Realizar una compra
 
-  Regla: Un usuario puede finalizar el proceso de compra
+  Rule: Un usuario puede finalizar el proceso de compra
   Como usuario quiero finalizar la compra de los productos añadidos al carrito.
 
-    Antecedentes: Iniciar sesión y agregar productos al carrito
-      Dado que el usuario navega a la página de inicio de sesión
-      E inicia sesión, agrega productos y va a la página del carrito de compras
+    Antecedentes: Iniciar sesion y agregar productos al carrito
+      Dado que el usuario navega a la pagina de inicio de sesion
+      E inicia sesion, agrega productos y va a la pagina del carrito de compras
 
     @CompraExitosa
     Escenario: Compra exitosa
-      Cuando el usuario navega a la página de finalización de compra
-      E ingresa la siguiente información de facturación
+      Cuando el usuario navega a la pagina de finalizacion de compra
+      E ingresa la siguiente informacion de facturacion
         | nombre | apellido | codigoPostal |
         | Diego  | Pinzon   | 540010       |
-      Entonces debería ver el mensaje de compra finalizada con éxito
+      Entonces deberia ver el mensaje de compra finalizada con exito

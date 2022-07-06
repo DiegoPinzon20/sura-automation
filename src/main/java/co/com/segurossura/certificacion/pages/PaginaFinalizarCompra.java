@@ -34,9 +34,9 @@ public class PaginaFinalizarCompra extends PageObject {
     WebElementFacade mensajeDeCompraExitosa;
 
     public void ingresarInformacionDelUsuario(InformacionDelUsuarioModelo informacionDelUsuario){
-        ingresarPrimerNombre(informacionDelUsuario.getFirstName());
-        ingresarApellido(informacionDelUsuario.getLastName());
-        ingresarCodigoPostal(informacionDelUsuario.getPostalCode());
+        ingresarPrimerNombre(informacionDelUsuario.getNombre());
+        ingresarApellido(informacionDelUsuario.getApellido());
+        ingresarCodigoPostal(informacionDelUsuario.getCodigoPostal());
         finalizarProcesoDeCompra();
     }
     private void ingresarPrimerNombre(String primerNombre){
