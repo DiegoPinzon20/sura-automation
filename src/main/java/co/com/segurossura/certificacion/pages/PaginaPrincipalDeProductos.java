@@ -29,7 +29,7 @@ public class PaginaPrincipalDeProductos extends PageObject {
         return tituloPaginaPrincipal.isVisible();
     }
 
-    public void agregarProductosAlCarrito(String nombreProducto){
+    public void agregarProductoAlCarrito(String nombreProducto){
         String buttonLocator = String.format("//div[text()='%s']/../../../div/button", nombreProducto);
         getDriver().findElement(By.xpath(buttonLocator)).click();
     }
