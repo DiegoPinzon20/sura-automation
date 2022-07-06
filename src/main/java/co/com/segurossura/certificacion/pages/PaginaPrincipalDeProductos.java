@@ -25,7 +25,7 @@ public class PaginaPrincipalDeProductos extends PageObject {
     @FindBy(xpath = "//button[text()='Add to cart']")
     private List<WebElementFacade> botonesParaAgregarAlCarrito;
 
-    public boolean esVisibleElTituloDeLaPaginaPrincipal(){
+    public boolean esVisibleElTituloDeLaPagina(){
         return tituloPaginaPrincipal.isVisible();
     }
 
