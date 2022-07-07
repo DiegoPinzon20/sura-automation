@@ -54,21 +54,21 @@ public class IniciarSesionDefinitions {
 
     @Cuando("el usuario inicia sesion con clave de acceso vacia")
     public void elUsuarioIniciaSesionConContrasenaVacia() {
-        paginaInicioSesion.iniciarSesion(CredencialesModelo.USUARIO_USUARIO_VACIO);
+        paginaInicioSesion.iniciarSesion(CredencialesModelo.USUARIO_CLAVE_VACIA);
     }
 
     @Entonces("deberia ver el mensaje de clave de acceso requerida")
     public void deberiaVerElMensajeDeContrasenaRequerida() {
-        assertThat(paginaInicioSesion.obtenerMensajeDeErrorInicioSesion(), equalTo(Constantes.MENSAJE_NOMBRE_USUARIO_REQUERIDO));
+        assertThat(paginaInicioSesion.obtenerMensajeDeErrorInicioSesion(), equalTo(Constantes.MENSAJE_CONTRASENA_REQUERIDA));
     }
 
     @Cuando("el usuario inicia sesion con usuario vacio")
     public void elUsuarioIniciaSesionConUsuarioVacio() {
-        paginaInicioSesion.iniciarSesion(CredencialesModelo.USUARIO_CLAVE_VACIA);
+        paginaInicioSesion.iniciarSesion(CredencialesModelo.USUARIO_USUARIO_VACIO);
     }
 
     @Entonces("deberia ver el mensaje de nombre de usuario requerido")
     public void deberiaVerElMensajeDeNombreDeUsuarioRequerido() {
-        assertThat(paginaInicioSesion.obtenerMensajeDeErrorInicioSesion(), equalTo(Constantes.MENSAJE_CONTRASENA_REQUERIDA));
+        assertThat(paginaInicioSesion.obtenerMensajeDeErrorInicioSesion(), equalTo(Constantes.MENSAJE_NOMBRE_USUARIO_REQUERIDO));
     }
 }
