@@ -6,9 +6,12 @@ import co.com.sura.core.certificacion.pages.CarritoDeComprasPage;
 import co.com.sura.core.certificacion.pages.FinalizarCompraPage;
 import co.com.sura.core.certificacion.pages.InicioSesionPage;
 import co.com.sura.core.certificacion.pages.CatalogoProductosPage;
+import io.cucumber.java.DataTableType;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.E;
 import io.cucumber.java.es.Entonces;
+
+import java.util.Map;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
@@ -40,5 +43,14 @@ public class FinalizarCompraDefinition {
     @Entonces("deberia ver el mensaje de compra finalizada con exito")
     public void deberiaVerElMensajeDeCompraFinalizadaConExito() {
         assertThat(finalizarCompraPage.fueExitosaLaCompra(), is(true));
+    }
+
+    @DataTableType
+    public InformacionDelUsuarioModelo defineProfileInformation(Map<String, String> entry) {
+        return new InformacionDelUsuarioModelo(
+                entry.get("nombre"),
+                entry.get("apellido"),
+                entry.get("codigoPostal")
+        );
     }
 }
