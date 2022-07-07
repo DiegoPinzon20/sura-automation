@@ -8,8 +8,7 @@ Característica: Realizar una compra
   Como usuario quiero finalizar la compra de los productos añadidos al carrito.
 
     Antecedentes: Iniciar sesion y agregar productos al carrito
-      Dado que el usuario navega a la pagina de inicio de sesion
-      E inicia sesion, agrega productos y va a la pagina del carrito de compras
+      Dado que el usuario agrega productos al carrito de compras
 
     @CompraExitosa
     Escenario: Compra exitosa

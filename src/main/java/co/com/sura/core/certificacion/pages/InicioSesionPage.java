@@ -9,7 +9,7 @@ import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.support.FindBy;
 
 @DefaultUrl("https://www.saucedemo.com/")
-public class PaginaInicioSesion extends PageObject {
+public class InicioSesionPage extends PageObject {
 
     @FindBy( id = "user-name")
     WebElementFacade campoDeUsuario;

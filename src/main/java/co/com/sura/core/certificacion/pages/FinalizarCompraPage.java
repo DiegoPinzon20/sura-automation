@@ -7,7 +7,7 @@ import net.thucydides.core.annotations.At;
 import org.openqa.selenium.support.FindBy;
 
 @At("https://www.saucedemo.com/checkout-step-one.html")
-public class PaginaFinalizarCompra extends PageObject {
+public class FinalizarCompraPage extends PageObject {
 
     @FindBy(id = "continue")
     WebElementFacade btnContinuar;
