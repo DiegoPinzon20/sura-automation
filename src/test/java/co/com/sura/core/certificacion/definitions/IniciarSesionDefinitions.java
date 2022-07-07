@@ -2,7 +2,7 @@ package co.com.sura.core.certificacion.definitions;
 
 import co.com.sura.core.certificacion.pages.PaginaInicioSesion;
 import co.com.sura.core.certificacion.pages.PaginaPrincipalDeProductos;
-import co.com.sura.core.certificacion.constants.Constantes;
+import co.com.sura.core.certificacion.utils.Constantes;
 import co.com.sura.core.certificacion.models.CredencialesModelo;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
