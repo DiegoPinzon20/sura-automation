@@ -1,4 +1,4 @@
-package co.com.segurossura.certificacion.runners;
+package co.com.sura.core.certificacion.runners;
 
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;

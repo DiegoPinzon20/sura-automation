@@ -1,10 +1,10 @@
-package co.com.segurossura.certificacion.definitions;
+package co.com.sura.core.certificacion.definitions;
 
-import co.com.segurossura.certificacion.models.InformacionDelUsuarioModelo;
-import co.com.segurossura.certificacion.pages.PaginaCarritoDeCompras;
-import co.com.segurossura.certificacion.pages.PaginaFinalizarCompra;
-import co.com.segurossura.certificacion.pages.PaginaInicioSesion;
-import co.com.segurossura.certificacion.pages.PaginaPrincipalDeProductos;
+import co.com.sura.core.certificacion.models.InformacionDelUsuarioModelo;
+import co.com.sura.core.certificacion.pages.PaginaCarritoDeCompras;
+import co.com.sura.core.certificacion.pages.PaginaFinalizarCompra;
+import co.com.sura.core.certificacion.pages.PaginaInicioSesion;
+import co.com.sura.core.certificacion.pages.PaginaPrincipalDeProductos;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.E;
 import io.cucumber.java.es.Entonces;

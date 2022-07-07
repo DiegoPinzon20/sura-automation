@@ -1,4 +1,4 @@
-package co.com.segurossura.certificacion.models;
+package co.com.sura.core.certificacion.models;
 
 public enum CredencialesModelo {
     USUARIO_ESTANDAR("standard_user", "secret_sauce"),

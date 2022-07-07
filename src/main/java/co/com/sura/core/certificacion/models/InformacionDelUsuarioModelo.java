@@ -1,4 +1,4 @@
-package co.com.segurossura.certificacion.models;
+package co.com.sura.core.certificacion.models;
 
 import lombok.Data;
 
