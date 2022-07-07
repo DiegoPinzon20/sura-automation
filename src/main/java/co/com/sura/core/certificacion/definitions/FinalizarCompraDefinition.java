@@ -13,7 +13,7 @@ import io.cucumber.java.es.Entonces;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
-public class FinalizarCompraDefinitions {
+public class FinalizarCompraDefinition {
 
     private FinalizarCompraPage finalizarCompraPage;
     private CatalogoProductosPage catalogoProductosPage;
