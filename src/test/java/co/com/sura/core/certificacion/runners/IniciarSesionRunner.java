@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/inicio_de_sesion.feature",
-        glue = "co.com.segurossura.certificacion.definitions",
+        glue = "co.com.sura.core.certificacion.definitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         plugin = {
                 "pretty",
