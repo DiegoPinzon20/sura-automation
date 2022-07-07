@@ -6,8 +6,10 @@ import co.com.sura.core.certificacion.pages.CarritoDeComprasPage;
 import co.com.sura.core.certificacion.pages.FinalizarCompraPage;
 import co.com.sura.core.certificacion.pages.InicioSesionPage;
 import co.com.sura.core.certificacion.pages.CatalogoProductosPage;
+import io.cucumber.java.Before;
 import io.cucumber.java.DataTableType;
 import io.cucumber.java.es.Cuando;
+import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.E;
 import io.cucumber.java.es.Entonces;
 
@@ -23,8 +25,13 @@ public class FinalizarCompraDefinition {
     private CarritoDeComprasPage carritoDeComprasPage;
     private InicioSesionPage inicioSesionPage;
 
-    @E("inicia sesion, agrega productos y va a la pagina del carrito de compras")
-    public void iniciaSesionAgregaProductosYVaALaPaginaDelCarritoDeCompras() {
+    @Before
+    public void queElUsuarioNavegaALaPaginaDeInicioDeSesion() {
+        inicioSesionPage.open();
+    }
+
+    @Dado("que el usuario agrega productos al carrito de compras")
+    public void queElUsuarioAgregaProductosAlCarritoDeCompras() {
         inicioSesionPage.iniciarSesion(CredencialesModelo.USUARIO_ESTANDAR);
         catalogoProductosPage.agregarProductosRandom();
         catalogoProductosPage.verProductosEnElCarrito();
