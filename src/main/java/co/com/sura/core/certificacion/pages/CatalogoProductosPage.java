@@ -11,7 +11,7 @@ import java.util.List;
 import static co.com.sura.core.certificacion.utils.GenerarNumeroRandom.*;
 
 @At("https://www.saucedemo.com/inventory.html")
-public class PaginaPrincipalDeProductos extends PageObject {
+public class CatalogoProductosPage extends PageObject {
 
     @FindBy(xpath = "//span[@class='title']")
     private WebElementFacade tituloPaginaPrincipal;

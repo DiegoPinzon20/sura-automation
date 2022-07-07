@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import java.util.List;
 
 @At("https://www.saucedemo.com/cart.html")
-public class PaginaCarritoDeCompras extends PageObject {
+public class CarritoDeComprasPage extends PageObject {
 
     @FindBy(xpath = "//div[@class='inventory_item_name']")
     List<WebElementFacade> listaDeProductosEnElCarrito;
