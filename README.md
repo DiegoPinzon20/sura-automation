@@ -85,6 +85,14 @@ La automatización fue desarrollada con:
 
 Se usó Git para el control de versiones. 🔀
 
+## Evidencias
+
+![resultado_ejecucion.png](src/test/resources/evidencias/resultado_ejecucion.png)
+
+![img.png](src/test/resources/evidencias/serenity_report_1.png)
+
+![img_1.png](src/test/resources/evidencias/serenity_report_2.png)
+
 ## Autor 👨
 
 **Diego Pinzón** - [diego.pizon@sofka.com.co]()
