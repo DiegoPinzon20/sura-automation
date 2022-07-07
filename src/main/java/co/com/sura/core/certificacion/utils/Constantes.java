@@ -1,4 +1,4 @@
-package co.com.segurossura.certificacion.constants;
+package co.com.sura.core.certificacion.utils;
 
 public class Constantes {
 

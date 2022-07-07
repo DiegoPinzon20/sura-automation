@@ -1,6 +1,6 @@
-package co.com.segurossura.certificacion.definitions;
+package co.com.sura.core.certificacion.definitions;
 
-import co.com.segurossura.certificacion.models.InformacionDelUsuarioModelo;
+import co.com.sura.core.certificacion.models.InformacionDelUsuarioModelo;
 import io.cucumber.java.DataTableType;
 
 import java.util.Map;

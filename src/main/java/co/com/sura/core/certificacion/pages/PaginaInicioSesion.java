@@ -1,6 +1,6 @@
-package co.com.segurossura.certificacion.pages;
+package co.com.sura.core.certificacion.pages;
 
-import co.com.segurossura.certificacion.models.CredencialesModelo;
+import co.com.sura.core.certificacion.models.CredencialesModelo;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.Step;
